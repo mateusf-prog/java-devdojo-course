@@ -1,6 +1,6 @@
-package curso.devdojo.maratonajava.javacore.introducaoclasses.dominio.test;
+package curso.devdojo.maratonajava.javacore.classes.sobrecargaconstrutores.test;
 
-import curso.devdojo.maratonajava.javacore.introducaoclasses.dominio.Pessoa;
+import curso.devdojo.maratonajava.javacore.classes.sobrecargaconstrutores.dominio.Pessoa;
 
 public class PessoaTest {
     public static void main(String[] args) {
