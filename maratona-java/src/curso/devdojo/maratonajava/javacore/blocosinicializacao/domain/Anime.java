@@ -1,4 +1,4 @@
-package curso.devdojo.maratonajava.javacore.classes.blocosinicializacao.domain;
+package curso.devdojo.maratonajava.javacore.blocosinicializacao.domain;
 
 import java.util.ArrayList;
 import java.util.List;

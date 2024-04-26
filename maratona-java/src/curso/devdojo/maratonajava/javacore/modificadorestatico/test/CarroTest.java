@@ -1,6 +1,6 @@
-package curso.devdojo.maratonajava.javacore.classes.modificadorestatico.test;
+package curso.devdojo.maratonajava.javacore.modificadorestatico.test;
 
-import curso.devdojo.maratonajava.javacore.classes.modificadorestatico.dominio.Carro;
+import curso.devdojo.maratonajava.javacore.modificadorestatico.dominio.Carro;
 
 public class CarroTest {
     public static void main(String[] args) {

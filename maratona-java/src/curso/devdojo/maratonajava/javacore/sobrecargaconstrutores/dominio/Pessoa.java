@@ -1,4 +1,4 @@
-package curso.devdojo.maratonajava.javacore.classes.sobrecargaconstrutores.dominio;
+package curso.devdojo.maratonajava.javacore.sobrecargaconstrutores.dominio;
 
 public class Pessoa {
 

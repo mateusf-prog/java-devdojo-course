@@ -1,6 +1,6 @@
-package curso.devdojo.maratonajava.javacore.classes.blocosinicializacao.test;
+package curso.devdojo.maratonajava.javacore.blocosinicializacao.test;
 
-import curso.devdojo.maratonajava.javacore.classes.blocosinicializacao.domain.Anime;
+import curso.devdojo.maratonajava.javacore.blocosinicializacao.domain.Anime;
 
 public class AnimeTest {
     public static void main(String[] args) {
