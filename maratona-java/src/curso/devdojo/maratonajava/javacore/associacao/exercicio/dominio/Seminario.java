@@ -1,17 +1,17 @@
 package curso.devdojo.maratonajava.javacore.associacao.exercicio.dominio;
 
-public class Semiranio {
+public class Seminario {
 
     private String titulo;
     private Local local;
     private Aluno[] alunos;
 
-    public Semiranio(String titulo, Local local) {
+    public Seminario(String titulo, Local local) {
         this.titulo = titulo;
         this.local = local;
     }
 
-    public Semiranio(String titulo, Local local, Aluno[] alunos) {
+    public Seminario(String titulo, Local local, Aluno[] alunos) {
         this.titulo = titulo;
         this.local = local;
         this.alunos = alunos;

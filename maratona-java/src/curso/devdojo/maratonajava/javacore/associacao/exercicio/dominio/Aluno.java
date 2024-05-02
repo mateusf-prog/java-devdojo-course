@@ -4,7 +4,7 @@ public class Aluno {
 
     private String nome;
     private int idade;
-    private Semiranio semiranio;
+    private Seminario semiranio;
 
     public Aluno() {
     }
@@ -14,7 +14,7 @@ public class Aluno {
         this.idade = idade;
     }
 
-    public Aluno(String nome, int idade, Semiranio semiranio) {
+    public Aluno(String nome, int idade, Seminario semiranio) {
         this.nome = nome;
         this.idade = idade;
         this.semiranio = semiranio;
@@ -41,11 +41,11 @@ public class Aluno {
         this.idade = idade;
     }
 
-    public Semiranio getSemiranio() {
+    public Seminario getSemiranio() {
         return semiranio;
     }
 
-    public void setSemiranio(Semiranio semiranio) {
+    public void setSemiranio(Seminario semiranio) {
         this.semiranio = semiranio;
     }
 }

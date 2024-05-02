@@ -4,7 +4,7 @@ public class Professor {
 
     private String nome;
     private String especialidade;
-    private Semiranio[] semiranios;
+    private Seminario[] semiranios;
 
     public Professor() {
     }
@@ -14,7 +14,7 @@ public class Professor {
         this.especialidade = especialidade;
     }
 
-    public Professor(String nome, String especialidade, Semiranio[] semiranios) {
+    public Professor(String nome, String especialidade, Seminario[] semiranios) {
         this.nome = nome;
         this.especialidade = especialidade;
         this.semiranios = semiranios;
@@ -23,7 +23,7 @@ public class Professor {
     public void imprime() {
         System.out.println("Nome e especialidade professor: " + this.nome + ", " + this.especialidade);
         if (semiranios == null) return;
-        for (Semiranio s : semiranios) {
+        for (Seminario s : semiranios) {
             System.out.println(s.getTitulo());
         }
     }
@@ -44,11 +44,11 @@ public class Professor {
         this.especialidade = especialidade;
     }
 
-    public Semiranio[] getSemiranios() {
+    public Seminario[] getSemiranios() {
         return semiranios;
     }
 
-    public void setSemiranios(Semiranio[] semiranios) {
+    public void setSemiranios(Seminario[] semiranios) {
         this.semiranios = semiranios;
     }
 }
