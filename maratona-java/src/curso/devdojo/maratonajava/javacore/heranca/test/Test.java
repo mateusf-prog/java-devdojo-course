@@ -10,16 +10,14 @@ public class Test {
         endereco.setRua("Rua 3");
         endereco.setCep("12345-000");
 
-        Pessoa pessoa = new Pessoa();
-        pessoa.setNome("Toyohisa");
+        Pessoa pessoa = new Pessoa("Toyohisa");
         pessoa.setEndereco(endereco);
         pessoa.setCpf("12345678998");
 
         pessoa.imprime();
         System.out.println("---------------");
 
-        Funcionario funcionario = new Funcionario();
-        funcionario.setNome("Oda");
+        Funcionario funcionario = new Funcionario("Oda");
         funcionario.setCpf("2233322");
         funcionario.setEndereco(endereco);
         funcionario.setSalario(20000);
