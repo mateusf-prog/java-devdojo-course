@@ -9,6 +9,11 @@ public class Carro {
     public static final int VELOCIDADE_LIMITE = 250;
     public final Comprador COMPRADOR = new Comprador();
 
+    public final void imprime() {
+        System.out.println(this.name);
+
+    }
+
     public String getName() {
         return name;
     }

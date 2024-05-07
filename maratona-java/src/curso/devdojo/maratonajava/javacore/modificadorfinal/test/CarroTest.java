@@ -1,6 +1,7 @@
 package curso.devdojo.maratonajava.javacore.modificadorfinal.test;
 
 import curso.devdojo.maratonajava.javacore.modificadorfinal.dominio.Carro;
+import curso.devdojo.maratonajava.javacore.modificadorfinal.dominio.Ferrari;
 
 /**
  * Este é um exemplo de como o padrão Singleton é implementado em Java.
@@ -21,5 +22,9 @@ public class CarroTest {
         System.out.println(carro.COMPRADOR);
         carro.COMPRADOR.setNome("Kuririn");
         System.out.println(carro.COMPRADOR);
+
+        Ferrari ferrari = new Ferrari();
+        ferrari.setName("123");
+        ferrari.imprime();
     }
 }
