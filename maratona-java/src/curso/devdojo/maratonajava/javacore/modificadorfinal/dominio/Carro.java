@@ -7,6 +7,7 @@ package curso.devdojo.maratonajava.javacore.modificadorfinal.dominio;
 public class Carro {
     private String name;
     public static final int VELOCIDADE_LIMITE = 250;
+    public final Comprador COMPRADOR = new Comprador();
 
     public String getName() {
         return name;
