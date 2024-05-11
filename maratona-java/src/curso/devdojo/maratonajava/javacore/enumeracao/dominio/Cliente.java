@@ -1,28 +1,20 @@
 package curso.devdojo.maratonajava.javacore.enumeracao.dominio;
 
-/** O problema dessa abordagem é que o código fica feio e tem o risco de ter
- *  inconsistencia de dados na criação dos objetos
- */
 public class Cliente {
 
     private String nome;
-    private String tipo;
-    public static final String PESSOA_FISICA = "PESSOA_FISICA";
-    public static final String PESSOA_JURIDICA = "PESSOA_JURIDICA";
+    private TipoCliente tipoCliente;
 
-    public Cliente(String nome, String tipo) {
-        if(!tipo.equals(PESSOA_FISICA) && !tipo.equals(PESSOA_JURIDICA)) {
-            return;
-        }
+    public Cliente(String nome, TipoCliente tipoCliente) {
         this.nome = nome;
-        this.tipo = tipo;
+        this.tipoCliente = tipoCliente;
     }
 
     @Override
     public String toString() {
         return "Cliente{" +
                 "nome='" + nome + '\'' +
-                ", tipo='" + tipo + '\'' +
+                ", tipoCliente=" + tipoCliente +
                 '}';
     }
 
@@ -34,11 +26,11 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public String getTipo() {
-        return tipo;
+    public TipoCliente getTipoCliente() {
+        return tipoCliente;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setTipoCliente(TipoCliente tipoCliente) {
+        this.tipoCliente = tipoCliente;
     }
 }
