@@ -1,17 +1,13 @@
 package curso.devdojo.maratonajava.javacore.enumeracao.dominio;
 
-public class Cliente {
-    public enum TipoPagamento {
-        DEBITO, CREDITO;
-    }
+public class Cliente {;
+
     private String nome;
     private TipoCliente tipoCliente;
-    private TipoPagamento tipoPagamento;
 
-    public Cliente(String nome, TipoCliente tipoCliente, TipoPagamento tipoPagamento) {
+    public Cliente(String nome, TipoCliente tipoCliente) {
         this.nome = nome;
         this.tipoCliente = tipoCliente;
-        this.tipoPagamento = tipoPagamento;
     }
 
     @Override
@@ -19,7 +15,6 @@ public class Cliente {
         return "Cliente{" +
                 "nome='" + nome + '\'' +
                 ", tipoCliente=" + tipoCliente.getNomeRelatorio() +
-                ", tipoPagamento=" + tipoPagamento +
                 ", tipoClienteInt=" + tipoCliente.getValor() +
                 '}';
     }
