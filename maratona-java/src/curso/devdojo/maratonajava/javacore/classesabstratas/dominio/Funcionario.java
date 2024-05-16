@@ -1,6 +1,10 @@
 package curso.devdojo.maratonajava.javacore.classesabstratas.dominio;
 
-public abstract class Funcionario {
+/**
+ * Classe abstrata Funcionario herda a classe abstrata Pessoa, então os métodos abstratos em Pessoa
+ * se não forem implementados em Funcionario, eles DEVEM ser implementados nas subclasses de Funcionario
+ */
+public abstract class Funcionario extends Pessoa {
 
     protected String nome;
     protected double salario;
@@ -18,4 +22,9 @@ public abstract class Funcionario {
      */
     public abstract void calcularBonus();
 
+
+    @Override
+    public void imprime() {
+        System.out.println("Imprimindo");
+    }
 }
