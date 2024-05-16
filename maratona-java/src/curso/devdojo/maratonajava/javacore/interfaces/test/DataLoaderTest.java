@@ -1,5 +1,6 @@
 package curso.devdojo.maratonajava.javacore.interfaces.test;
 
+import curso.devdojo.maratonajava.javacore.interfaces.dominio.DataLoader;
 import curso.devdojo.maratonajava.javacore.interfaces.dominio.DatabaseLoader;
 import curso.devdojo.maratonajava.javacore.interfaces.dominio.FileLoader;
 
@@ -20,5 +21,10 @@ public class DataLoaderTest {
 
         // método checkPermission está sobrescrito
         fileLoader.checkPermission();
+
+
+        // acessando diretamente os métodos da interface e da classe, que são indepentendes um do outro
+        DataLoader.retrieveMaxDataSize();
+        DatabaseLoader.retrieveMaxDataSize();
     }
 }
