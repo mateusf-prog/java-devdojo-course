@@ -12,5 +12,13 @@ public class DataLoaderTest {
 
         databaseLoader.load();
         fileLoader.load();
+        databaseLoader.remove();
+        fileLoader.remove();
+
+        // permissao sendo checada a nível de interface
+        databaseLoader.checkPermission();
+
+        // método checkPermission está sobrescrito
+        fileLoader.checkPermission();
     }
 }
